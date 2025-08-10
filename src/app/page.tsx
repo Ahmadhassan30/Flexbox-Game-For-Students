@@ -26,7 +26,7 @@ export default function FlexboxTrainer() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-lg shadow-lg text-center space-y-4 max-w-sm mx-auto">
             <h2 className="text-2xl font-bold text-indigo-600">Congratulations!</h2>
-            <p className="text-gray-700">You've mastered all Flexbox challenges!</p>
+            <p className="text-gray-700">You&apos;ve mastered all Flexbox challenges!</p>
             <p className="text-xl font-medium text-green-600">{gameState.score} Points</p>
             <button
               onClick={resetGame}
@@ -98,7 +98,7 @@ export default function FlexboxTrainer() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-lg shadow-lg text-center space-y-4 max-w-sm mx-auto">
             <h2 className="text-2xl font-bold text-green-600">Level Complete!</h2>
-            <p className="text-gray-700">You mastered "{currentLevel.title}"!</p>
+            <p className="text-gray-700">You mastered &ldquo;{currentLevel.title}&rdquo;!</p>
             <p className="text-xl font-medium text-green-800">{gameState.score} Points</p>
             <div className="flex justify-center gap-4 mt-4">
               <button
