@@ -27,6 +27,11 @@ export const EnemyCharacter: React.FC<EnemyCharacterProps> = ({ type }) => {
       color: "bg-gray-300",
       accent: "bg-gray-500",
     },
+    none: {
+      size: "w-0 h-0",
+      color: "bg-transparent",
+      accent: "bg-transparent",
+    },
   }
 
   const style = enemyStyles[type]
